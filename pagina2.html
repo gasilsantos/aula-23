@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minha segunda pagina responsiva</title>
+    <style>
+        div{
+            background-color: bisque;
+
+        }
+        h1{
+            color:aquamarine;
+            font-family: "courier new";
+        }
+        p{
+            color:cadetblue;
+            font-family: "courier new";
+        }
+
+        /*resolução em celulares*/
+        @media  screen and (max-width : 767px){
+            div{
+                background-color: brown;
+            }
+            h1{
+                color:burlywood;
+                font-family: "courier new";
+            }
+            p{
+                color:blue;
+                font-family:"courier new";
+            }
+              
+        }
+            
+        /*resolção em tablets*/
+        @media screen and (min-width: 768px) and (max-width: 1024) {
+            div{
+                background-color: chartreuse;
+            }
+            h1{
+                color:cornflowerblue;
+                font-family:"courier new";
+            }
+            p{
+                color:coral;
+                font-family: "courier new";
+            }
+        } 
+        /*resolução em desktops*/
+
+        @media screen and  (min-width: 1024) {
+            div{
+                background-color: crimson;
+            }
+            h1{
+                color:cyan;
+                font-family: "courier new";
+            }
+            p{
+                color:darkblue;
+                font-family: "courier new";
+            }
+        }
+        /*resolução em desktops de alta resolução8*/
+
+        @media screen and (min-width: 1280px) {
+            div{
+                background-color: blue;
+            }
+            h1{
+                color:cornflowerblue;
+                font-family:"courier new";
+            }
+            p{
+                color: blanchedalmond;
+                font-family: "courier new";
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>pagina 2</h1>
+        <p> 
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Alias mollitia hic 
+            quibusdam eius animi necessitatibus dolorem vero impedit deserunt corrupti amet voluptatum accusamus quas nihil voluptate aliquid, reiciendis consectetur delectus?
+        </p>
+    </div>
+</body>
+</html>
